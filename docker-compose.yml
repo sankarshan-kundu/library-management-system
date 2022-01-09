@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  lib-db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: libman
+      POSTGRES_PASSWORD: kuK3v4
+    ports:
+      - 5432:5432
