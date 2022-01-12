@@ -8,4 +8,4 @@ services:
       POSTGRES_USER: libman
       POSTGRES_PASSWORD: kuK3v4
     ports:
-      - 5432:5432
+      - 5445:5432
